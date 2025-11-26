@@ -125,3 +125,4 @@ const Header = ({ activeSection }: HeaderProps) => {
 }
 
 export default Header
+
