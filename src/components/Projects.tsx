@@ -33,7 +33,7 @@ const Projects = () => {
       description: 'Sistema de punto de venta con gestión de inventario',
       longDescription:
         'Sistema de punto de venta construido con Next.js y PostgreSQL. Incluye panel de administración, sistema facturacion con ARCA, gestión de inventario en tiempo real y experiencia de usuario optimizada.',
-      image: '/api/placeholder/800/600',
+      image: '/pos.png',
       technologies: ['Next.js', 'TypeScript', 'PostgreSQL', 'Firebase', 'Tailwind CSS'],
       liveUrl: 'https://prueba-demo-app.vercel.app/',
       githubUrl: 'https://github.com/jerojimenez17/POS-Template',
@@ -42,13 +42,24 @@ const Projects = () => {
     {
       id: 2,
       title: 'Sistema de Gestión de sorteos',
-      description: 'Dashboard interactivo para gestión de sorteos',
+      description: 'Dashboard interactivo para gestión de sorteos para Padel Point',
       longDescription:
         'Aplicación web moderna para gestión de sorteos con funcionalidades avanzadas de colaboración en tiempo real.',
-      image: '/api/placeholder/800/600',
+      image: '/sorteospadel.png',
       technologies: ['React', 'Node.js', 'MongoDB', 'Socket.io', 'Material-UI'],
       liveUrl: 'https://example.com',
       githubUrl: 'https://github.com/jerojimenez17',
+      featured: true,
+    },
+    {
+      id: 3,
+      title: 'Gestión de Torneos de Padel',
+      description: 'Aplicación web para la gestión integral de torneos de pádel.',
+      longDescription:
+        'Aplicación web en desarrollo orientada a la gestión de torneos de pádel, pensada para clubes u organizadores que necesitan administrar jugadores, parejas, partidos y resultados de forma clara y centralizada. Permite generar grupos y partidos automaticamente.',
+      image: '/torneospadel.png',
+      technologies: ['Next.js', 'TypeScript', 'PostgreSQL', 'Prisma', 'Tailwind CSS'],
+      githubUrl: 'https://github.com/jerojimenez17/torneos-app',
       featured: true,
     },
    
@@ -132,17 +143,18 @@ const Projects = () => {
                 transition={{ delay: index * 0.1, duration: 0.5 }}
                 className="h-full"
               >
-                <div className="gradient-border h-full rounded-2xl overflow-hidden group hover:scale-105 transition-transform duration-300">
+                <div className="gradient-border h-full rounded-2xl overflow-hidden group hover:scale-[1.02] transition-transform duration-300">
                   <div className="gradient-border-content h-full flex flex-col">
                     {/* Project Image */}
-                    <div className="relative h-48 overflow-hidden">
-                      <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 via-purple-500/20 to-pink-500/20 flex items-center justify-center">
-                        <div className="text-6xl font-bold text-white/10">
-                          {project.id}
-                        </div>
-                      </div>
+                    <div className="relative h-56 overflow-hidden">
+                      <img 
+                        src={project.image} 
+                        alt={project.title}
+                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                       {project.featured && (
-                        <div className="absolute top-4 right-4 glass px-3 py-1 rounded-full text-xs font-semibold text-blue-400 border border-blue-400/20">
+                        <div className="absolute top-4 right-4 glass px-3 py-1 rounded-full text-xs font-semibold text-blue-400 border border-blue-400/20 z-10">
                           Destacado
                         </div>
                       )}

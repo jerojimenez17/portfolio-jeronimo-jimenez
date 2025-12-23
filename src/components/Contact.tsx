@@ -65,7 +65,7 @@ const Contact = () => {
 
             <div className="space-y-4">
               <motion.a
-                href="mailto:jero@example.com"
+                href="mailto:jerojimenez98@gmail.com"
                 whileHover={{ x: 5 }}
                 className="flex items-center gap-4 p-4 glass rounded-xl hover:bg-white/10 transition-colors group"
               >
@@ -74,7 +74,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <div className="text-sm text-neutral-400">Email</div>
-                  <div className="text-white font-medium">jero@example.com</div>
+                  <div className="text-white font-medium">jerojimenez98@gmail.com</div>
                 </div>
               </motion.a>
 
@@ -95,7 +95,7 @@ const Contact = () => {
               </motion.a>
 
               <motion.a
-                href="https://github.com"
+                href="https://github.com/jerojimenez17"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ x: 5 }}
@@ -106,7 +106,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <div className="text-sm text-neutral-400">GitHub</div>
-                  <div className="text-white font-medium">@jeronimojimenez</div>
+                  <div className="text-white font-medium">@jerojimenez17</div>
                 </div>
               </motion.a>
             </div>
