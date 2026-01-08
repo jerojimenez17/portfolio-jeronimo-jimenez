@@ -49,7 +49,7 @@ const Header = ({ activeSection }: HeaderProps) => {
           className="flex items-center gap-3 group"
         >
           <img
-            src="/avatar2.png"
+            src="/avatar3.jpg"
             alt="Jero Jimenez"
             className="h-12 w-12 rounded-full border-2 border-transparent group-hover:border-blue-500 transition-colors"
           />
