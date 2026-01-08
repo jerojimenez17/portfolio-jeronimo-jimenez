@@ -12,7 +12,7 @@ const About = () => {
     {
       icon: Server,
       title: 'Backend',
-      description: 'Node.js, Express, Python, Django',
+      description: 'Node.js, Express, JAVA, Spring Boot',
       color: 'from-purple-500 to-pink-500',
     },
     {
@@ -69,9 +69,9 @@ const About = () => {
               proyecto.
             </p>
             <p className="text-lg text-neutral-300 leading-relaxed">
-              Cuando no estoy programando, disfruto contribuyendo a proyectos
-              de código abierto y compartiendo conocimiento con la comunidad de
-              desarrolladores.
+            Hoy mi objetivo es integrarme a una empresa donde pueda crecer profesionalmente,
+  aprender de desarrolladores con más experiencia y aportar valor desde el primer día
+  con una base técnica sólida.
             </p>
           </motion.div>
 
@@ -88,7 +88,7 @@ const About = () => {
                 <div className="grid grid-cols-2 gap-6">
                   <div>
                     <div className="text-4xl font-bold text-gradient mb-2">
-                      50+
+                      40+
                     </div>
                     <div className="text-neutral-400">Proyectos</div>
                   </div>
@@ -100,7 +100,7 @@ const About = () => {
                   </div>
                   <div>
                     <div className="text-4xl font-bold text-gradient mb-2">
-                      30+
+                      10+
                     </div>
                     <div className="text-neutral-400">Clientes satisfechos</div>
                   </div>

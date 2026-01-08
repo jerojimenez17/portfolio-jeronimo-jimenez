@@ -56,9 +56,10 @@ const Hero = () => {
               transition={{ delay: 0.5, duration: 0.6 }}
               className="text-lg text-neutral-400 max-w-xl leading-relaxed"
             >
-              Creo aplicaciones web modernas y escalables, combinando diseño
-              atractivo con funcionalidad robusta. Especializado en tecnologías
-              de vanguardia para llevar tus ideas al siguiente nivel.
+            Desarrollador web con experiencia freelance, enfocado en crear aplicaciones modernas,
+escalables y bien diseñadas. Busco dar el siguiente paso profesional incorporándome
+a un equipo de desarrollo, donde pueda aprender, aportar valor y crecer dentro
+de un entorno empresarial.
             </motion.p>
 
             {/* Social Links */}
