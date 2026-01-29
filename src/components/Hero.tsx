@@ -135,9 +135,9 @@ de un entorno empresarial.
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full blur-3xl" />
               <img
-                src="/avatar3.jpg"
+                src="/profile.png"
                 alt="Jero Jiménez"
-                className="relative w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-white/10 shadow-2xl"
+                className="relative w-64 h-64 md:w-96 rounded-full border-4 border-white/10 shadow-2xl"
               />
             </motion.div>
           </motion.div>
