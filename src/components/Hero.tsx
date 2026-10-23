@@ -56,10 +56,10 @@ const Hero = () => {
               transition={{ delay: 0.5, duration: 0.6 }}
               className="text-lg text-neutral-400 max-w-xl leading-relaxed"
             >
-            Desarrollador web con experiencia freelance, enfocado en crear aplicaciones modernas,
-escalables y bien diseñadas. Busco dar el siguiente paso profesional incorporándome
-a un equipo de desarrollo, donde pueda aprender, aportar valor y crecer dentro
-de un entorno empresarial.
+              Desarrollador web con experiencia freelance, enfocado en crear aplicaciones modernas,
+              escalables y bien diseñadas. Busco dar el siguiente paso profesional incorporándome
+              a un equipo de desarrollo, donde pueda aprender, aportar valor y crecer dentro
+              de un entorno empresarial.
             </motion.p>
 
             {/* Social Links */}
@@ -135,9 +135,9 @@ de un entorno empresarial.
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full blur-3xl" />
               <img
-                src="/profile.png"
+                src="/profile.jpg"
                 alt="Jero Jiménez"
-                className="relative w-64 h-64 md:w-96 rounded-full border-4 border-white/10 shadow-2xl"
+                className="relative w-64 h-64 md:h-96 md:w-96 rounded-full border-4 border-white/10 shadow-2xl"
               />
             </motion.div>
           </motion.div>
